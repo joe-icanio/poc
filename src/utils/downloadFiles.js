@@ -5,6 +5,8 @@ export const downloadFile = data => {
 
   // some browser needs the anchor to be in the doc
   document.body.append(link)
+  link.download = 'file.pdf'
+
   link.click()
   link.remove()
   // in case the Blob uses a lot of memory

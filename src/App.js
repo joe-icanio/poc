@@ -35,8 +35,9 @@ function App() {
           responseType: 'blob',
         },
       })
+      const file = new Blob([res.data], { type: 'application/pdf' })
 
-      downloadFile(res.data)
+      downloadFile(file)
     } catch (err) {
       console.error(err)
     } finally {
