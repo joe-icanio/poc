@@ -1,7 +1,9 @@
-import axios from 'axios'
+import axios from "axios";
+
+export const baseURL = "https://mask-api.icaniotech.com";
 
 const clientInstance = axios.create({
-  baseURL: 'https://mask-api.icaniotech.com',
-})
+  baseURL: baseURL,
+});
 
-export default clientInstance
+export default clientInstance;

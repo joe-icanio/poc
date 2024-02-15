@@ -1,7 +1,7 @@
 const typography = {
   fontFamily: "'Roboto', sans-serif",
   body1: {
-    fontWeight: 400, // or 'bold'
+    fontWeight: 400,
   },
   h1: {
     fontWeight: 500,
@@ -36,8 +36,6 @@ const typography = {
   h7: {
     fontWeight: 400,
     fontSize: 11,
-    // letterSpacing: "-0.05px",
-  
   },
   buttons: {
     textTransform: "none",

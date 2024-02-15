@@ -9,14 +9,11 @@ const Footer = () => {
         color: "#363157",
         zIndex: "1200",
         backgroundColor: "rgb(234 214 207)",
-        p: 2,
-        // left: 0,
-        // bottom: 0,
-        // width: "100%",
+        padding: "10px",
       }}
     >
       <Typography sx={{ fontSize: "14px" }}>
-        {"© 2023 Waterfield Advisors Pvt. Ltd."}
+        {"© 2024 Waterfield Advisors Pvt. Ltd."}
       </Typography>
     </Box>
   );
